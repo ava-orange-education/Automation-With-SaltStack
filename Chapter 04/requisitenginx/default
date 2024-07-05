@@ -1,0 +1,6 @@
+# Default ports for Nginx
+server {
+	listen 82 default_server;
+        listen [::]:82 default_server;
+}
+
